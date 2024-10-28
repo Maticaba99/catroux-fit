@@ -11,11 +11,16 @@ const Faq = () => {
     >
       <div style={{ marginBottom: "20px" }}>
         <p
-          style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "10px" textAlign: "center" }}
+          style={{
+            fontSize: "24px",
+            fontWeight: "bold",
+            marginBottom: "10px",
+            textAlign: "center",
+          }}
         >
           Valor Diferencial:
         </p>
-        <p style={{ fontSize: "16px", lineHeight: "1.5" textAlign: "center" }}>
+        <p style={{ fontSize: "16px", lineHeight: "1.5", textAlign: "center" }}>
           Mientras otros entrenadores buscan mantenerte atado a sus servicios,
           yo me centro en que logres la independencia. No solo cambiarás tu
           físico, sino que aprenderás a mantener y mejorar tus resultados sin
@@ -23,7 +28,12 @@ const Faq = () => {
           todos los meses.{" "}
         </p>
         <h3
-          style={{ fontSize: "20px", fontWeight: "bold", marginBottom: "20px" textAlign: "center" }}
+          style={{
+            fontSize: "20px",
+            fontWeight: "bold",
+            marginBottom: "20px",
+            textAlign: "center",
+          }}
         >
           PREGUNTAS FRECUENTES
         </h3>
