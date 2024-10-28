@@ -1,12 +1,12 @@
 function Hero() {
   return (
     <div className="bg-gray-800">
-      <section className="flex flex-col items-center text-center space-y-4 max-w-2xl mx-auto">
-        <h1 className="text-3xl font-montserrat text-white m-4 uppercase">
+      <section className="md:p-8 flex flex-col items-center text-center space-y-4 max-w-2xl mx-auto">
+        <h1 className="text-3xl sm:text-3xl md:text-4xl font-montserrat text-white m-4 uppercase">
           Te enseño cómo cambiar tu físico y a seguir mejorándolo por ti mismo
           para no depender de un entrenador
         </h1>
-        <p className="mt-4 font-sans text-lg text-white">
+        <p className="mt-4 font-sans sm:text-lg md:text-xl text-white">
           &quot;Conmigo aprenderás a tomar el control de tu nutrición y
           entrenamiento para lograr resultados visibles y evitar errores que te
           hagan perder el tiempo. Te ayudaré a alcanzar tus objetivos y te
