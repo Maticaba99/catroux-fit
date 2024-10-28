@@ -28,7 +28,7 @@ const Faq = () => {
           todos los meses.
         </p>
         <h3
-          className="bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto"
+          className="bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto space-y-4"
           style={{
             fontSize: "20px",
             fontWeight: "bold",
