@@ -6,7 +6,7 @@ import Pro from "./components/pro";
 import Logros from "./components/logros";
 import Testimonios from "./components/testimonios";
 import Objesiones from "./components/objesiones";
-import Boton from "./components/objesiones";
+import Boton from "./components/boton";
 
 export default function Home() {
   return (
