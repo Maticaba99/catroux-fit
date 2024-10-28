@@ -6,6 +6,7 @@ import Pro from "./components/pro";
 import Logros from "./components/logros";
 import Testimonios from "./components/testimonios";
 import Objesiones from "./components/objesiones";
+import Boton from "./components/objesiones";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
       <Testimonios />
       <hr className="my-0 border-t-4 border-blue-900" />
       <Objesiones />
-
+      <Boton />
       <Footer />
     </div>
   );
