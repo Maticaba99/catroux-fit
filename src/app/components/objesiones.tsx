@@ -2,23 +2,25 @@ import { FaQuestionCircle } from "react-icons/fa";
 
 const Faq = () => {
   return (
-    <div className="bg-gray-800 ">
-      <div className="bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
-        {" "}
-        {/* Cambiado de <objesiones> a <div> */}
-        <p className="text-center text-2xl font-bold mb-6">
-          Valor Diferencial:{" "}
+    <div style={{ padding: "20px", color: "#fff", backgroundColor: "#1a1a2e" }}>
+      <div style={{ marginBottom: "20px" }}>
+        <p
+          style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "10px" }}
+        >
+          Valor Diferencial:
         </p>
-        <p className="mt-2 text-lg text-white mb-6 space-y-4 max-w-4xl mx-auto">
+        <p style={{ fontSize: "16px", lineHeight: "1.5" }}>
           Mientras otros entrenadores buscan mantenerte atado a sus servicios,
           yo me centro en que logres la independencia. No solo cambiarás tu
           físico, sino que aprenderás a mantener y mejorar tus resultados sin
           depender de asesorías constantes para que no tengas que pagar a nadie
           todos los meses.{" "}
         </p>
-        <h2 className="text-center text-2xl font-bold mb-6">
+        <h3
+          style={{ fontSize: "20px", fontWeight: "bold", marginBottom: "20px" }}
+        >
           PREGUNTAS FRECUENTES
-        </h2>
+        </h3>
         <div className="bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
           <div className="space-y-4">
             {/* Primera pregunta */}
