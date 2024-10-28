@@ -20,7 +20,7 @@ const Faq = () => {
         >
           Valor Diferencial:
         </p>
-        <p className="text-center mt-2 text-white">
+        <p className="mt-4 font-sans text-lg text-white">
           Mientras otros entrenadores buscan mantenerte atado a sus servicios,
           yo me centro en que logres la independencia. No solo cambiarás tu
           físico, sino que aprenderás a mantener y mejorar tus resultados sin
