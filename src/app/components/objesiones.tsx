@@ -3,7 +3,7 @@ import { FaQuestionCircle } from "react-icons/fa";
 const Faq = () => {
   return (
     <div
-      className="bg-gray-900"
+      className="bg-gray-800"
       style={{
         padding: "20px",
         color: "#fff",
@@ -20,7 +20,10 @@ const Faq = () => {
         >
           Valor Diferencial:
         </p>
-        <p style={{ fontSize: "16px", lineHeight: "1.5", textAlign: "center" }}>
+        <p
+          className=" text-center mt-2 text-white"
+          style={{ fontSize: "16px", lineHeight: "1.5", textAlign: "center" }}
+        >
           Mientras otros entrenadores buscan mantenerte atado a sus servicios,
           yo me centro en que logres la independencia. No solo cambiarás tu
           físico, sino que aprenderás a mantener y mejorar tus resultados sin
