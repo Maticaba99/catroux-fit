@@ -3,10 +3,10 @@ import { FaQuestionCircle } from "react-icons/fa";
 const Faq = () => {
   return (
     <div
+      className="bg-gray-900"
       style={{
         padding: "20px",
         color: "#fff",
-        backgroundColor: "#1a1a1a",
       }}
     >
       <div style={{ marginBottom: "20px" }}>
