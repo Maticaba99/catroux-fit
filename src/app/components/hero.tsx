@@ -7,11 +7,11 @@ function Hero() {
           para no depender de un entrenador
         </h1>
         <p className="mt-4 font-sans text-lg text-white">
-          "Conmigo aprenderás a tomar el control de tu nutrición y entrenamiento
-          para lograr resultados visibles y evitar errores que te hagan perder
-          el tiempo. Te ayudaré a alcanzar tus objetivos y te enseñaré todo lo
-          necesario para que puedas seguir progresando por tu cuenta a largo
-          plazo".
+          &quot;Conmigo aprenderás a tomar el control de tu nutrición y
+          entrenamiento para lograr resultados visibles y evitar errores que te
+          hagan perder el tiempo. Te ayudaré a alcanzar tus objetivos y te
+          enseñaré todo lo necesario para que puedas seguir progresando por tu
+          cuenta a largo plazo&quot;.
         </p>
         <div className="mt-8">
           <iframe
