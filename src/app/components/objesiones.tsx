@@ -2,8 +2,8 @@ import { FaQuestionCircle } from "react-icons/fa";
 
 const Faq = () => {
   return (
-    <div className="bg-gray-900">
-      <div className="bg-gray-800 rounded-md bg-gray-800 min-h-screen my-4 p-4 border">
+    <div className="bg-gray-800 rounded-md min-h-screen mb-4 p-4 border">
+      <div className="bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
         {" "}
         {/* Cambiado de <objesiones> a <div> */}
         <div className="bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
