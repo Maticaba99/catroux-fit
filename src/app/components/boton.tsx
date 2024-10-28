@@ -1,4 +1,4 @@
-function Hero() {
+function Boton() {
   return (
     <div>
       <button className="-translate-y-2 mt-8 bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 flex flex-col items-center">
@@ -11,4 +11,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Boton;
