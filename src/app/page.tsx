@@ -24,7 +24,6 @@ export default function Home() {
       <hr className="my-0 border-t-4 border-blue-900" />
       <Testimonios />
       <hr className="my-0 border-t-4 border-blue-900" />
-
       <Objesiones />
 
       <Footer />
