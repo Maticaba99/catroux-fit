@@ -6,23 +6,20 @@ const Faq = () => {
       <div className="bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
         {" "}
         {/* Cambiado de <objesiones> a <div> */}
+        <p className="text-center text-2xl font-bold mb-6">
+          Valor Diferencial:{" "}
+        </p>
+        <p className="mt-2 text-lg text-white mb-6 space-y-4 max-w-4xl mx-auto">
+          Mientras otros entrenadores buscan mantenerte atado a sus servicios,
+          yo me centro en que logres la independencia. No solo cambiarás tu
+          físico, sino que aprenderás a mantener y mejorar tus resultados sin
+          depender de asesorías constantes para que no tengas que pagar a nadie
+          todos los meses.{" "}
+        </p>
+        <h2 className="text-center text-2xl font-bold mb-6">
+          PREGUNTAS FRECUENTES
+        </h2>
         <div className="bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
-          <p className="text-center text-2xl font-bold mb-6">
-            Valor Diferencial:{" "}
-          </p>
-
-          <p className="mt-2 text-lg text-white mb-6 space-y-4 max-w-4xl mx-auto">
-            Mientras otros entrenadores buscan mantenerte atado a sus servicios,
-            yo me centro en que logres la independencia. No solo cambiarás tu
-            físico, sino que aprenderás a mantener y mejorar tus resultados sin
-            depender de asesorías constantes para que no tengas que pagar a
-            nadie todos los meses.{" "}
-          </p>
-
-          <h2 className="text-center text-2xl font-bold mb-6">
-            PREGUNTAS FRECUENTES
-          </h2>
-
           <div className="space-y-4">
             {/* Primera pregunta */}
             <div className="bg-gray-800 p-4 rounded-lg">
