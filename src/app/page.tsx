@@ -9,7 +9,7 @@ import Objesiones from "./components/objesiones";
 
 export default function Home() {
   return (
-    <div className="bg-gray-800 bg-cover bg-center bg-fixed max-w-screen-lg mx-auto">
+    <div className="bg-cover bg-center bg-fixed max-w-screen-lg mx-auto">
       <Header />
       <hr className="my-0 border-t-4 border-blue-500" />
 

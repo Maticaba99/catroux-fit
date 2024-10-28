@@ -2,13 +2,13 @@ import React from "react";
 
 function Features() {
   return (
-    <section className="bg-gray-800 py-16 sm:grid-cols-2 md:grid-cols-3">
+    <section className="bg-blue-300 py-16">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-white text-4xl font-bold text-center">
           TRANSFORMACIONES{" "}
         </h2>
-        <hr className="border-blue-600 my-4" />
-        <p className="mt-4 text-base sm:text-lg text-white text-center">
+        <hr></hr>
+        <p className="mt-4 text-lg text-white text-center">
           He ayudado a muchos de mis amigos a transformar sus físicos y superar
           sus propios límites. Desde aumentar masa muscular de manera
           consistente hasta perder grasa sin sacrificar fuerza, juntos hemos
