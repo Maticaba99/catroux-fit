@@ -162,7 +162,6 @@ const Faq = () => {
                 maximizar tus resultados. Estoy comprometido a guiarte hasta
                 alcanzar tus objetivos.{" "}
               </p>
-              <div className="pb-8"></div>
             </div>
           </div>
         </div>

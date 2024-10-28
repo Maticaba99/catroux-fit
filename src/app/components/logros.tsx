@@ -8,7 +8,7 @@ function Features() {
           TRANSFORMACIONES{" "}
         </h2>
         <hr></hr>
-        <p className="mt-4 text-lg text-black text-center">
+        <p className="mt-4 text-lg text-white text-center">
           He ayudado a muchos de mis amigos a transformar sus físicos y superar
           sus propios límites. Desde aumentar masa muscular de manera
           consistente hasta perder grasa sin sacrificar fuerza, juntos hemos

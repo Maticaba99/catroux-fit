@@ -14,10 +14,8 @@ function Features() {
             className="w-32 h-auto"
           />
         </div>
-        <p className="text-center mt-2 text-gray-600">
-          de quienes ya se sumaron a
-        </p>
-        <p className=" text-center mt-2 text-black">
+        <p className="text-center mt-2 text-gray-600"></p>
+        <p className=" text-center mt-2 text-white">
           Mis clientes y amigos, no solo han logrado cambios físicos
           impresionantes, sino que ahora tienen el conocimiento para llevar por
           sí mismos su nutrición y entrenamiento. Cada testimonio refleja no

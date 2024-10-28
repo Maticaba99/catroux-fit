@@ -5,9 +5,7 @@ function Header() {
   return (
     <header className="bg-gray-900 text-black py-8">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-center items-center">
-        <a href="#" className="flex items-center">
-          <img src="" alt="Logo" className="w-36 h-auto" />
-        </a>
+        <p className="flex items-center">CATROUX</p>
       </div>
     </header>
   );
