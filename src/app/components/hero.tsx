@@ -18,9 +18,12 @@ function Hero() {
           enseñaré todo lo necesario para que puedas seguir progresando por tu
           cuenta a largo plazo&quot;.
         </p>
-        <div className="mt-8">
+        <div
+          className="relative w-full max-w-full overflow-hidden"
+          style={{ paddingTop: "56.25%" }}
+        >
           <iframe
-            className="w-[1100px] h-[500px] mx-auto"
+            className="absolute top-0 left-0 w-full h-full"
             src="https://player.vimeo.com/video/359553297"
             title="VSL"
             allowFullScreen
