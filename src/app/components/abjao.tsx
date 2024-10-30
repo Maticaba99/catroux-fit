@@ -61,7 +61,7 @@ function Features() {
                   <h3 className="text-2xl font-semibold text-white">
                     Estrategias Basadas en Resultados{" "}
                   </h3>
-                  <p className="text-1x1 md:text-1xl lg:text-1xl mt-2 text-white">
+                  <p className="text-1x1 md:text-1xl lg:text-1xl text-lg mt-2 text-white">
                     Diseñadas para cambios visibles, sostenibles y en un tiempo
                     optimizado.{" "}
                   </p>
@@ -71,7 +71,7 @@ function Features() {
 
             <div className="flex">
               <div className="flex-shrink-0">
-                <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg relative top-1" />
+                <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg text-lg relative top-1" />
 
                 <div className="ml-4">
                   <h3 className="text-2xl font-semibold text-white">
@@ -89,7 +89,7 @@ function Features() {
 
             <div className="flex">
               <div className="flex-shrink-0">
-                <FaChevronRight className="text-blue-500 mr-2 text-base md:text-lg lg:text-xl relative top-1" />
+                <FaChevronRight className="text-blue-500 mr-2 text-base md:text-lg lg:text-xl text-lg relative top-1" />
                 <div className="ml-4">
                   <h3 className="text-2xl font-semibold text-white">
                     Ahorro a Largo Plazo{" "}
