@@ -30,7 +30,7 @@ function Features() {
                   <h3 className="text-2xl font-semibold text-white">
                     Independencia para el Futuro{" "}
                   </h3>
-                  <p className="text-gray-600 mt-2 text-white">
+                  <p className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white">
                     Aprenderás a gestionar tu físico por ti mismo, evitando la
                     dependencia continua de asesorías.{" "}
                   </p>
@@ -45,7 +45,7 @@ function Features() {
                   <h3 className="text-2xl font-semibold text-white">
                     Desarrollo de Conocimientos Reales{" "}
                   </h3>
-                  <p className="text-white-600 mt-2 text-white">
+                  <p className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white">
                     Obtendrás herramientas prácticas que te permitirán tomar
                     decisiones con seguridad, incluso después de nuestro trabajo
                     juntos.{" "}
@@ -61,7 +61,7 @@ function Features() {
                   <h3 className="text-2xl font-semibold text-white">
                     Estrategias Basadas en Resultados{" "}
                   </h3>
-                  <p className="text-gray-600 mt-2 text-white">
+                  <p className="text-1x1 md:text-1xl lg:text-1xl mt-2 text-white">
                     Diseñadas para cambios visibles, sostenibles y en un tiempo
                     optimizado.{" "}
                   </p>
@@ -77,7 +77,7 @@ function Features() {
                   <h3 className="text-2xl font-semibold text-white">
                     Flexibilidad en la Alimentación{" "}
                   </h3>
-                  <p className="text-gray-600 mt-2 text-white">
+                  <p className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white">
                     Diseñaremos un plan que incluya solo comida que disfrutes y
                     que ya tengas en casa, sin alimentos que te desagraden. Solo
                     comerás alimentos que ya comes a diario, pero ajustare todo
@@ -94,7 +94,7 @@ function Features() {
                   <h3 className="text-2xl font-semibold text-white">
                     Ahorro a Largo Plazo{" "}
                   </h3>
-                  <p className="text-gray-600 mt-2 text-white">
+                  <p className="text-1x1 md:text-1xl lg:text-1xl mt-2 text-white">
                     Invierte en tu conocimiento para reducir los costos
                     recurrentes de las asesorías perpetuas.{" "}
                   </p>
