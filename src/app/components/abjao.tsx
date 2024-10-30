@@ -6,7 +6,7 @@ function Features() {
     <div className="bg-gray-800">
       <section className="bg-gray py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-white">
+          <h2 className="text-4xl font-bold text-center text-white">
             Transparencia y Honestidad{" "}
           </h2>
           <p className="text-center mt-2 text-gray-600 text-white">

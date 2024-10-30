@@ -1,14 +1,22 @@
 // components/Features.js
 import React from "react";
+const link = document.createElement("link");
+link.href =
+  "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
+link.rel = "stylesheet";
+document.head.appendChild(link);
 
 function Features() {
   return (
     <section className="bg-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-white text-4xl font-poppins text-center">
-          RESUMEN DE PROMESAS{" "}
-        </h2>
-        <hr />
+        <div style={{ fontFamily: "'Poppins', sans-serif" }}>
+          <h2 className="text-white text-4xl font-poppins text-center">
+            RESUMEN DE PROMESAS{" "}
+          </h2>
+          <hr />
+        </div>
+
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Feature 1 */}
           <div className="flex flex-col items-center">
