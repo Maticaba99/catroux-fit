@@ -23,7 +23,7 @@ const Faq = () => {
           Porqué elegirme a mí:
         </p>
         <p
-          className="mt-4 font-sans text-lg text-white text-center"
+          className=" text-center mt-2 text-white"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
           Mientras otros entrenadores pueden buscar mantenerte dependiente de
