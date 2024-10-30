@@ -2,7 +2,7 @@ import "@fontsource/poppins";
 
 function Hero() {
   return (
-    <div className="py-8 bg-gray-800">
+    <div className="py-10 bg-gray-800">
       <section className="flex flex-col items-center text-center space-y-4 max-w-2xl mx-auto">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
           <h1 className="text-3xl md:text-4xl lg:text-4xl  text-white m-4 uppercase">
@@ -29,7 +29,7 @@ function Hero() {
             allowFullScreen
           ></iframe>
         </div>
-        <button className="-translate-y-2 mt-8 bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 flex flex-col items-center">
+        <button className="pb-2 -translate-y-2 mt-8 bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 flex flex-col items-center">
           <span className="text-lg">Reserva una llamada conmigo</span>
           <span className="text-sm mt-1 opacity-80">
             y empieza tu transformación
