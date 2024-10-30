@@ -56,7 +56,7 @@ function Features() {
 
             <div className="flex">
               <div className="flex-shrink-0">
-                <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg relative top-1" />
+                <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg mt-1 text-center" />
                 <div className="ml-4">
                   <h3 className="text-2xl font-semibold text-white">
                     Estrategias Basadas en Resultados{" "}
