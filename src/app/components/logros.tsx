@@ -6,13 +6,13 @@ function Features() {
     <section className="bg-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
-          <h2 className="text-white text-6xl  text-center">
+          <h2 className="text-white text-3xl md:text-4xl lg:text-5xl  text-center">
             TRANSFORMACIONES{" "}
           </h2>
         </div>
 
         <hr></hr>
-        <p className="mt-4 text-lg text-white text-center">
+        <p className="text-1x1 md:text-1xl lg:text-1xl mt-4 text-lg text-white text-center">
           He ayudado a muchos de mis amigos a transformar sus físicos y superar
           sus propios límites. Desde aumentar masa muscular de manera
           consistente hasta perder grasa sin sacrificar fuerza, juntos hemos
