@@ -3,7 +3,7 @@ import "@fontsource/poppins";
 
 function Features() {
   return (
-    <section className="bg-gray-800 py-10">
+    <div className="py-10 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
           <h2 className="text-white text-3xl md:text-4xl lg:text-5xl  text-center">
@@ -52,7 +52,7 @@ function Features() {
           {/* Agrega más features como secciones aquí */}
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
