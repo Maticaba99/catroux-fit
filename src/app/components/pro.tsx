@@ -4,7 +4,7 @@ import "@fontsource/poppins";
 
 function Features() {
   return (
-    <section className="bg-gray-800 py-16 space-y-4 max-w-2xl">
+    <section className="bg-gray-800 py-10">
       <div className="max-w-7xl mx-auto px-4">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white">

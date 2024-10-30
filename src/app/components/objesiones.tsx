@@ -4,7 +4,7 @@ import "@fontsource/poppins";
 const Faq = () => {
   return (
     <div
-      className="bg-gray-800 space-y-4 max-w-2xl"
+      className="bg-gray-800 py-10"
       style={{
         padding: "20px",
         color: "#fff",

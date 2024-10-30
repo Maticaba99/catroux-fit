@@ -3,7 +3,7 @@ import "@fontsource/poppins";
 
 function Features() {
   return (
-    <section className="bg-gray-800 py-16 space-y-4 max-w-2xl">
+    <section className="bg-gray-800 py-10">
       <div className="max-w-7xl mx-auto px-4">
         <h2
           className="text-4xl text-white font-bold text-center"
