@@ -23,7 +23,7 @@ const Faq = () => {
           Porqué elegirme a mí:
         </p>
         <p
-          className=" text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white mb-4
+          className=" text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white mb-4 text-center
           
 "
           style={{ fontFamily: "Poppins, sans-serif" }}
