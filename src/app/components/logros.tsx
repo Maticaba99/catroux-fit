@@ -30,7 +30,7 @@ function Features() {
               <img
                 src="/fotopro1.jpeg"
                 alt="cambio de fisico"
-                className="w-80 h-auto rounded-lg translate-x-40	"
+                className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md rounded-lg"
               />
             </div>
           </div>
@@ -41,7 +41,7 @@ function Features() {
               <img
                 src="/fotopro2.jpeg"
                 alt="cambio de fisico"
-                className="w-80 h-auto rounded-lg"
+                className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md rounded-lg"
               />
             </div>
           </div>

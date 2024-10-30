@@ -10,7 +10,7 @@ function Features() {
         <div className="flex justify-center">
           <img
             src="https://www.oneonfitprogram.com/hosted/images/cd/5695e06fa8491aa076ece14cc466eb/Stars.png"
-            alt="Optimización de Nicho y Oferta"
+            alt="puntuacion de clientes"
             className="w-32 h-auto"
           />
         </div>
@@ -33,7 +33,7 @@ function Features() {
               <img
                 src="fototransformacion1.jpeg"
                 alt="transformacion"
-                className="w-80 h-auto rounded-lg translate-x-40	"
+                className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md rounded-lg"
               />
             </div>
           </div>
@@ -43,8 +43,8 @@ function Features() {
             <div className="flex-shrink-0">
               <img
                 src="fototransformacion2.jpeg"
-                alt="opiniones de google"
-                className="w-80 h-auto rounded-lg"
+                alt="transformacion cliente"
+                className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md rounded-lg"
               />
             </div>
           </div>
