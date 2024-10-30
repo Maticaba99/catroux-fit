@@ -2,7 +2,7 @@ import "@fontsource/poppins";
 
 function Hero() {
   return (
-    <div className="py-4 bg-gray-800">
+    <div className="py-8 bg-gray-800">
       <section className="flex flex-col items-center text-center space-y-4 max-w-2xl mx-auto">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
           <h1 className="text-3xl md:text-4xl lg:text-4xl  text-white m-4 uppercase">
@@ -11,7 +11,7 @@ function Hero() {
           </h1>
         </div>
 
-        <p className="text-xl md:text-2xl lg:text-2xl mt-4 font-sans text-lg text-white">
+        <p className="text-x2 md:text-2xl lg:text-2xl mt-4 font-sans text-lg text-white">
           &quot;Conmigo aprenderás a tomar el control de tu nutrición y
           entrenamiento para lograr resultados visibles y evitar errores que te
           hagan perder el tiempo. Te ayudaré a alcanzar tus objetivos y te
