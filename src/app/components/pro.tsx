@@ -21,7 +21,10 @@ function Features() {
               alt="Cambio Físico Visible"
               className="rounded-md "
             />
-            <p className="text-white mt-2">
+            <p
+              className="text-white mt-2"
+              style={{ fontFamily: "Poppins, sans-serif" }}
+            >
               Te ayudaré a lograr un cambio físico notorio y sostenido en el
               menor tiempo posible.
             </p>
@@ -34,7 +37,10 @@ function Features() {
               alt="Independencia Total"
               className="rounded-md"
             />
-            <p className="text-white mt-2">
+            <p
+              className="text-white mt-2"
+              style={{ fontFamily: "Poppins, sans-serif" }}
+            >
               Aprenderás a gestionar tu entrenamiento y nutrición sin depender
               de asesorías constantes.
             </p>
@@ -47,7 +53,10 @@ function Features() {
               alt="Resultados Basados en Ciencia"
               className="rounded-md"
             />
-            <p className="text-white mt-2">
+            <p
+              className="text-white mt-2"
+              style={{ fontFamily: "Poppins, sans-serif" }}
+            >
               Diseñaré estrategias personalizadas y probadas para alcanzar tus
               objetivos.
             </p>
@@ -60,7 +69,10 @@ function Features() {
               alt="Adherencia Garantizada"
               className="rounded-md"
             />
-            <p className="text-white mt-2">
+            <p
+              className="text-white mt-2"
+              style={{ fontFamily: "Poppins, sans-serif" }}
+            >
               Crearé un plan de alimentación y entrenamiento basado en tus
               preferencias para garantizar tu compromiso.
             </p>
@@ -73,7 +85,10 @@ function Features() {
               alt="Ahorro Financiero"
               className="rounded-md"
             />
-            <p className="text-white mt-2">
+            <p
+              className="text-white mt-2"
+              style={{ fontFamily: "Poppins, sans-serif" }}
+            >
               Evitarás los gastos recurrentes de asesorías perpetuas al dominar
               tu propio plan.
             </p>
@@ -86,7 +101,10 @@ function Features() {
               alt="Crecimiento Personal"
               className="rounded-md"
             />
-            <p className="text-white mt-2">
+            <p
+              className="text-white mt-2"
+              style={{ fontFamily: "Poppins, sans-serif" }}
+            >
               Desarrollarás la confianza para tomar decisiones informadas sobre
               tu físico y bienestar.
             </p>

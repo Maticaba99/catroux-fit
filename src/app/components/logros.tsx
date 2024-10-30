@@ -12,7 +12,10 @@ function Features() {
         </div>
 
         <hr></hr>
-        <p className="text-1x1 md:text-1xl lg:text-1xl mt-4 text-lg text-white text-center">
+        <p
+          className="text-1x1 md:text-1xl lg:text-1xl mt-4 text-lg text-white text-center"
+          style={{ fontFamily: "Poppins, sans-serif" }}
+        >
           He ayudado a muchos de mis amigos a transformar sus físicos y superar
           sus propios límites. Desde aumentar masa muscular de manera
           consistente hasta perder grasa sin sacrificar fuerza, juntos hemos

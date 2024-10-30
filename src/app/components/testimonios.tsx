@@ -1,10 +1,14 @@
 import React from "react";
+import "@fontsource/poppins";
 
 function Features() {
   return (
     <section className="bg-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl text-white font-bold text-center">
+        <h2
+          className="text-4xl text-white font-bold text-center"
+          style={{ fontFamily: "Poppins, sans-serif" }}
+        >
           TESTIMONIOS{" "}
         </h2>
         <div className="flex justify-center">
@@ -15,7 +19,10 @@ function Features() {
           />
         </div>
         <p className="text-center mt-2 text-gray-600"></p>
-        <p className=" text-center mt-2 text-white">
+        <p
+          className=" text-center mt-2 text-white"
+          style={{ fontFamily: "Poppins, sans-serif" }}
+        >
           Mis clientes y amigos, no solo han logrado cambios físicos
           impresionantes, sino que ahora tienen el conocimiento para llevar por
           sí mismos su nutrición y entrenamiento. Cada testimonio refleja no

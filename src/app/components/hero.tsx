@@ -11,7 +11,10 @@ function Hero() {
           </h1>
         </div>
 
-        <p className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white">
+        <p
+          className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white"
+          style={{ fontFamily: "Poppins, sans-serif" }}
+        >
           &quot;Conmigo aprenderás a tomar el control de tu nutrición y
           entrenamiento para lograr resultados visibles y evitar errores que te
           hagan perder el tiempo. Te ayudaré a alcanzar tus objetivos y te

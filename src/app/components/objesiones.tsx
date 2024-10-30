@@ -54,7 +54,10 @@ const Faq = () => {
             <div className="bg-gray-800 p-4 rounded-lg">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
-                <h3 className="font-semibold">
+                <h3
+                  className="font-semibold"
+                  style={{ fontFamily: "Poppins, sans-serif" }}
+                >
                   ¿Cuánto tiempo necesito seguir tus asesorías para ver
                   resultados?
                 </h3>
