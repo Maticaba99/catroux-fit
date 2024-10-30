@@ -2,10 +2,10 @@ import "@fontsource/poppins";
 
 function Hero() {
   return (
-    <div className="bg-gray-800">
+    <div className="bg-gray-800 mt-8 mb-8">
       <section className="flex flex-col items-center text-center space-y-4 max-w-2xl mx-auto">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl  text-white m-4 uppercase">
+          <h1 className="text-3xl md:text-4xl lg:text-4xl  text-white m-4 uppercase">
             Te enseño cómo cambiar tu físico y a seguir mejorándolo por ti mismo
             para no depender de un entrenador
           </h1>
