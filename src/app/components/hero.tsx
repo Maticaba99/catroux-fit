@@ -2,7 +2,7 @@ import "@fontsource/poppins";
 
 function Hero() {
   return (
-    <div className="mt-8 mb-8 bg-gray-800">
+    <div className="py-* bg-gray-800">
       <section className="flex flex-col items-center text-center space-y-4 max-w-2xl mx-auto">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
           <h1 className="text-3xl md:text-4xl lg:text-4xl  text-white m-4 uppercase">
