@@ -1,12 +1,16 @@
 import React from "react";
+import "@fontsource/poppins";
 
 function Features() {
   return (
     <section className="bg-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-white text-4xl font-bold text-center">
-          TRANSFORMACIONES{" "}
-        </h2>
+        <div style={{ fontFamily: "Poppins, sans-serif" }}>
+          <h2 className="text-white text-6xl  text-center">
+            TRANSFORMACIONES{" "}
+          </h2>
+        </div>
+
         <hr></hr>
         <p className="mt-4 text-lg text-white text-center">
           He ayudado a muchos de mis amigos a transformar sus físicos y superar

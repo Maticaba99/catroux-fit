@@ -1,14 +1,18 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
+import "@fontsource/poppins";
 
 function Features() {
   return (
     <div className="bg-gray-800">
       <section className="bg-gray py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-white">
-            Transparencia y Honestidad{" "}
-          </h2>
+          <div style={{ fontFamily: "Poppins, sans-serif" }}>
+            <h2 className="text-6xl text-center text-white">
+              TRANSPARENCIA Y HONESTIDAD{" "}
+            </h2>
+          </div>
+
           <p className="text-center mt-2 text-gray-600 text-white">
             A diferencia de otros entrenadores, mi objetivo no es mantenerte en
             una asesoría indefinidamente. Me enfoco en enseñarte a gestionar tu

@@ -1,4 +1,5 @@
 import { FaQuestionCircle } from "react-icons/fa";
+import "@fontsource/poppins";
 
 const Faq = () => {
   return (
@@ -11,16 +12,20 @@ const Faq = () => {
     >
       <div style={{ marginBottom: "20px" }}>
         <p
+          className="text-6xl text-center text-white"
           style={{
             fontSize: "24px",
             fontWeight: "bold",
             marginBottom: "10px",
-            textAlign: "center",
+            fontFamily: "Poppins, sans-serif",
           }}
         >
           Valor Diferencial:
         </p>
-        <p className="mt-4 font-sans text-lg text-white">
+        <p
+          className="mt-4 font-sans text-lg text-white text-center"
+          style={{ fontFamily: "Poppins, sans-serif" }}
+        >
           Mientras otros entrenadores buscan mantenerte atado a sus servicios,
           yo me centro en que logres la independencia. No solo cambiarás tu
           físico, sino que aprenderás a mantener y mejorar tus resultados sin
@@ -28,11 +33,12 @@ const Faq = () => {
           todos los meses.
         </p>
         <h3
+          className="text-6xl text-center text-white"
           style={{
             fontSize: "20px",
             fontWeight: "bold",
             marginBottom: "20px",
-            textAlign: "center",
+            fontFamily: "Poppins, sans-serif",
           }}
         >
           PREGUNTAS FRECUENTES
