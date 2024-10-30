@@ -7,7 +7,7 @@ function Hero() {
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
           <h1 className="text-3xl md:text-4xl lg:text-4xl  text-white m-4 uppercase">
             Te enseño cómo cambiar tu físico y a seguir mejorándolo por ti mismo
-            para no depender de un entrenador
+            para no depender de un entrenador y nutricionista a largo plazo
           </h1>
         </div>
 
@@ -30,7 +30,7 @@ function Hero() {
           ></iframe>
         </div>
         <section
-          className="py-8
+          className="py-5
 "
         >
           <button className="-translate-y-2 mt-8 bg-blue-600 text-white font-semibold py-5 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 flex flex-col items-center">
