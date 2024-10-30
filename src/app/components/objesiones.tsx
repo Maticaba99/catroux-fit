@@ -12,7 +12,7 @@ const Faq = () => {
     >
       <div style={{ marginBottom: "20px" }}>
         <p
-          className="text-6xl text-center text-white"
+          className="text-3xl md:text-4xl lg:text-4xl text-center text-white uppercase"
           style={{
             fontSize: "24px",
             fontWeight: "bold",
@@ -40,7 +40,7 @@ const Faq = () => {
           planificación.{" "}
         </p>
         <h3
-          className="text-6xl text-center text-white"
+          className="text-6xl text-center text-white mt-4"
           style={{
             fontSize: "20px",
             fontWeight: "bold",
@@ -50,7 +50,7 @@ const Faq = () => {
         >
           PREGUNTAS FRECUENTES
         </h3>
-        <div className="bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
+        <div className="text-1x1 md:text-1xl lg:text-1xl uppercase bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
           <div className="space-y-4">
             {/* Primera pregunta */}
             <div className="bg-gray-800 p-4 rounded-lg">
