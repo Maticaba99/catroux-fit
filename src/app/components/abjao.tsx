@@ -8,7 +8,7 @@ function Features() {
       <section className="bg-gray py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div style={{ fontFamily: "Poppins, sans-serif" }}>
-            <h2 className="text-6xl text-center text-white">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white">
               TRANSPARENCIA Y HONESTIDAD{" "}
             </h2>
           </div>
