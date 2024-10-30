@@ -61,7 +61,7 @@ function Features() {
                   <h3 className="text-2xl font-semibold text-white">
                     Estrategias Basadas en Resultados{" "}
                   </h3>
-                  <p className="text-1x1 md:text-1xl lg:text-1xl text-lg mt-2 text-white">
+                  <p className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white">
                     Diseñadas para cambios visibles, sostenibles y en un tiempo
                     optimizado.{" "}
                   </p>
@@ -77,7 +77,7 @@ function Features() {
                   <h3 className="text-2xl font-semibold text-white">
                     Flexibilidad en la Alimentación{" "}
                   </h3>
-                  <p className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white">
+                  <p className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white">
                     Diseñaremos un plan que incluya solo comida que disfrutes y
                     que ya tengas en casa, sin alimentos que te desagraden. Solo
                     comerás alimentos que ya comes a diario, pero ajustare todo
