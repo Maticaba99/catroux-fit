@@ -11,6 +11,8 @@ function Features() {
         >
           TESTIMONIOS{" "}
         </h2>
+        <hr></hr>
+
         <div className="flex justify-center">
           <img
             src="https://www.oneonfitprogram.com/hosted/images/cd/5695e06fa8491aa076ece14cc466eb/Stars.png"
