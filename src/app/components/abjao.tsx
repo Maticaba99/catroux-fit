@@ -72,18 +72,18 @@ function Features() {
             <div className="flex">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg text-lg relative top-1" />
+              </div>
 
-                <div className="ml-4">
-                  <h3 className="text-2xl font-semibold text-white">
-                    Flexibilidad en la Alimentación{" "}
-                  </h3>
-                  <p className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white">
-                    Diseñaremos un plan que incluya solo comida que disfrutes y
-                    que ya tengas en casa, sin alimentos que te desagraden. Solo
-                    comerás alimentos que ya comes a diario, pero ajustare todo
-                    para conseguir los cambios deseados.{" "}
-                  </p>
-                </div>
+              <div className="ml-4">
+                <h3 className="text-2xl font-semibold text-white">
+                  Flexibilidad en la Alimentación{" "}
+                </h3>
+                <p className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white">
+                  Diseñaremos un plan que incluya solo comida que disfrutes y
+                  que ya tengas en casa, sin alimentos que te desagraden. Solo
+                  comerás alimentos que ya comes a diario, pero ajustare todo
+                  para conseguir los cambios deseados.{" "}
+                </p>
               </div>
             </div>
 
