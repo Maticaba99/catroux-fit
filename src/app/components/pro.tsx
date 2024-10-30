@@ -5,7 +5,7 @@ function Features() {
   return (
     <section className="bg-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-white text-4xl font-bold text-center">
+        <h2 className="text-white text-4xl font-poppins text-center">
           RESUMEN DE PROMESAS{" "}
         </h2>
         <hr />
