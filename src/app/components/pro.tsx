@@ -1,15 +1,12 @@
 // components/Features.js
 import React from "react";
-const link = document.createElement("link");
-link.href =
-  "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
-link.rel = "stylesheet";
+import "@fontsource/poppins";
 
 function Features() {
   return (
     <section className="bg-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <div style={{ fontFamily: "'Poppins', sans-serif" }}>
+        <div style={{ fontFamily: "Poppins, sans-serif" }}>
           <h2 className="text-white text-4xl font-poppins text-center">
             RESUMEN DE PROMESAS{" "}
           </h2>
