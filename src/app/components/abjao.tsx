@@ -26,46 +26,49 @@ function Features() {
             <div className="flex">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg relative top-1" />
-                <div className="ml-4">
-                  <h3 className="text-2xl font-semibold text-white">
-                    Independencia para el Futuro{" "}
-                  </h3>
-                  <p className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white">
-                    Aprenderás a gestionar tu físico por ti mismo, evitando la
-                    dependencia continua de asesorías.{" "}
-                  </p>
-                </div>
+              </div>
+
+              <div className="ml-4">
+                <h3 className="text-2xl font-semibold text-white">
+                  Independencia para el Futuro{" "}
+                </h3>
+                <p className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white">
+                  Aprenderás a gestionar tu físico por ti mismo, evitando la
+                  dependencia continua de asesorías.{" "}
+                </p>
               </div>
             </div>
 
             <div className="flex">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg relative top-1" />
-                <div className="ml-4">
-                  <h3 className="text-2xl font-semibold text-white">
-                    Desarrollo de Conocimientos Reales{" "}
-                  </h3>
-                  <p className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white">
-                    Obtendrás herramientas prácticas que te permitirán tomar
-                    decisiones con seguridad, incluso después de nuestro trabajo
-                    juntos.{" "}
-                  </p>
-                </div>
+              </div>
+
+              <div className="ml-4">
+                <h3 className="text-2xl font-semibold text-white">
+                  Desarrollo de Conocimientos Reales{" "}
+                </h3>
+                <p className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white">
+                  Obtendrás herramientas prácticas que te permitirán tomar
+                  decisiones con seguridad, incluso después de nuestro trabajo
+                  juntos.{" "}
+                </p>
               </div>
             </div>
 
             <div className="flex">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg mt-1 text-center" />
-                <div className="ml-4">
-                  <h3 className="text-2xl font-semibold text-white">
-                    Estrategias Basadas en Resultados{" "}
-                  </h3>
-                  <p className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white">
-                    Diseñadas para cambios visibles, sostenibles y en un tiempo
-                    optimizado.{" "}
-                  </p>
-                </div>
+              </div>
+
+              <div className="ml-4">
+                <h3 className="text-2xl font-semibold text-white">
+                  Estrategias Basadas en Resultados{" "}
+                </h3>
+                <p className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white">
+                  Diseñadas para cambios visibles, sostenibles y en un tiempo
+                  optimizado.{" "}
+                </p>
               </div>
             </div>
 
@@ -90,15 +93,16 @@ function Features() {
             <div className="flex">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base md:text-lg lg:text-xl text-lg relative top-1" />
-                <div className="ml-4">
-                  <h3 className="text-2xl font-semibold text-white">
-                    Ahorro a Largo Plazo{" "}
-                  </h3>
-                  <p className="text-1x1 md:text-1xl lg:text-1xl mt-2 text-white">
-                    Invierte en tu conocimiento para reducir los costos
-                    recurrentes de las asesorías perpetuas.{" "}
-                  </p>
-                </div>
+              </div>
+
+              <div className="ml-4">
+                <h3 className="text-2xl font-semibold text-white">
+                  Ahorro a Largo Plazo{" "}
+                </h3>
+                <p className="text-1x1 md:text-1xl lg:text-1xl mt-2 text-white">
+                  Invierte en tu conocimiento para reducir los costos
+                  recurrentes de las asesorías perpetuas.{" "}
+                </p>
               </div>
             </div>
 
