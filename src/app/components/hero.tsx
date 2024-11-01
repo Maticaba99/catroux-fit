@@ -8,9 +8,11 @@ function Hero() {
           className="text-bold text-center leading-tight text-3xl md:text-4xl lg:text-4xl  text-white m-4"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
-          Te enseño cómo cambiar tu físico y a seguir mejorándolo por ti mismo
-          para no depender de un entrenador y nutricionista a largo plazo
-          <p>depender de un entrenador y nutricionista a largo plazo</p>
+          <span>Te enseño cómo cambiar tu físico y a seguir mejorándolo</span>
+          <br />
+          <span>por ti mismo para no depender de</span>
+          <span>un entrenador y nutricionista a largo plazo</span>
+          <br />
         </h1>
 
         <p
