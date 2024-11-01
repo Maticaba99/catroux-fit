@@ -45,7 +45,7 @@ const Faq = () => {
         >
           PREGUNTAS FRECUENTES
         </h3>
-        <div className="text-1x1 md:text-1xl lg:text-4xl uppercase bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
+        <div className="text-1x1 md:text-1xl lg:text-1xl  bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
           <div className="space-y-4">
             {/* Primera pregunta */}
             <div className="bg-gray-800 p-4 rounded-lg">
