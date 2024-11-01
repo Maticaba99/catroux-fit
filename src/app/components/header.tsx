@@ -3,7 +3,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="bg-gray-900 text-white py-8">
+    <header className="bg-gray-900 text-white">
       <div className=" flex justify-center items-center">
         <img
           src="/logo.png"
