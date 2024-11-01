@@ -24,10 +24,7 @@ function Hero() {
           entrenamiento, obten resultados y sigue progresando sin depender de
           nadie&quot;.
         </p>
-        <div
-          className="relative w-full max-w-full overflow-hidden"
-          style={{ paddingTop: "56.25%" }}
-        >
+        <div className="relative w-full max-w-full overflow-hidden">
           <div className="flex justify-center items-center h-screen">
             {" "}
             <iframe
