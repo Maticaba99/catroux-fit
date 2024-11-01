@@ -28,17 +28,18 @@ function Hero() {
           className="relative w-full max-w-full overflow-hidden"
           style={{ paddingTop: "56.25%" }}
         >
-          <iframe
-            className="justify-between max-w-3xl absolute top-0 left-0 w-full h-full"
-            src="https://player.vimeo.com/video/359553297"
-            title="VSL"
-            allowFullScreen
-          ></iframe>
+          <div className="flex justify-center items-center h-screen">
+            {" "}
+            <iframe
+              className="max-w-3xl w-full h-3/4"
+              src="https://player.vimeo.com/video/359553297"
+              title="VSL"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
-        <section
-          className="py-5
-"
-        >
+
+        <section className="py-5">
           <button className="-translate-y-2 mt-8 bg-blue-600 text-white font-semibold py-5 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 flex flex-col items-center">
             <span className="text-lg">Reserva una llamada conmigo</span>
             <span className="text-sm mt-1 opacity-80">
