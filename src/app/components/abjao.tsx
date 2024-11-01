@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import "@fontsource/poppins";
+import "aos/dist/aos.css";
+
+const MyComponent = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      offset: 200,    
+    });
+  }, []);
+
+
 
 function Features() {
   return (
@@ -8,11 +19,16 @@ function Features() {
       <section className="bg-gray ">
         <div className="max-w-7xl mx-auto px-4">
           <div style={{ fontFamily: "Poppins, sans-serif" }}>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white">
+            <h2
+            data-aos="fade-up"
+            className="text-3xl md:text-4xl lg:text-5xl text-center text-white ">
               TRANSPARENCIA Y HONESTIDAD{" "}
             </h2>
-            <hr />
+            <hr data-aos="fade-right" />
           </div>
+        );
+      {"}"};
+
 
           <p
             className="text-center mt-2 text-gray-600 text-white"
