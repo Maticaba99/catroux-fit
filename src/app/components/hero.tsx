@@ -29,7 +29,7 @@ function Hero() {
           style={{ paddingTop: "56.25%" }}
         >
           <iframe
-            className="absolute top-0 left-0 w-full h-full"
+            className="max-w-2xl absolute top-0 left-0 w-full h-full"
             src="https://player.vimeo.com/video/359553297"
             title="VSL"
             allowFullScreen
