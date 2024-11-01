@@ -4,22 +4,18 @@ function Hero() {
   return (
     <div className="py-10 bg-gray-800">
       <section className="flex flex-col items-center text-center space-y-4 max-w-2xl mx-auto">
-        <div style={{ fontFamily: "Poppins, sans-serif" }}>
-          <h1 className="text-3xl md:text-4xl lg:text-4xl  text-white m-4 uppercase">
-            Te enseño cómo cambiar tu físico y a seguir mejorándolo por ti mismo
-            para no depender de un entrenador y nutricionista a largo plazo
-          </h1>
-        </div>
+        <h1 className="text-3xl md:text-4xl lg:text-4xl  text-white m-4  Poppins font-weight 700">
+          Te enseño cómo cambiar tu físico y a seguir mejorándolo por ti mismo
+          para no depender de un entrenador y nutricionista a largo plazo
+        </h1>
 
         <p
           className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
-          &quot;Conmigo aprenderás a tomar el control de tu nutrición y
-          entrenamiento para lograr resultados visibles y evitar errores que te
-          hagan perder el tiempo. Te ayudaré a alcanzar tus objetivos y te
-          enseñaré todo lo necesario para que puedas seguir progresando por tu
-          cuenta a largo plazo&quot;.
+          &quot;Aprende conmigo a tomar el control de tu nutrición y
+          entrenamiento, obten resultados y sigue progresando sin depender de
+          nadie&quot;.
         </p>
         <div
           className="relative w-full max-w-full overflow-hidden"

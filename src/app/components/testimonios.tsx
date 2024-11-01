@@ -25,13 +25,11 @@ function Features() {
           className=" text-center mt-2 text-white"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
-          Mis clientes y amigos, no solo han logrado cambios físicos
-          impresionantes, sino que ahora tienen el conocimiento para llevar por
-          sí mismos su nutrición y entrenamiento. Cada testimonio refleja no
-          solo un cambio externo, sino también una transformación interna. Han
-          aprendido a planificar su alimentación y ajustar sus entrenamientos
-          según sus metas, sin depender de asesorías perpetuas. Ahora pueden
-          gestionar su progreso de forma independiente, manteniendo sus
+          Mis clientes y amigos han logrado cambios físicos y ahora gestionan su
+          nutrición y entrenamiento sin ningun coach. Cada testimonio refleja no
+          solo un cambio físico, sino un cambio de vida. Han aprendido a
+          planificar su alimentación y ajustar sus entrenamientos según sus
+          objetivos, sin depender de asesorías constantes, manteniendo sus
           resultados a largo plazo.
         </p>
 

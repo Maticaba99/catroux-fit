@@ -28,16 +28,11 @@ const Faq = () => {
 "
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
-          Mientras otros entrenadores pueden buscar mantenerte dependiente de
-          sus servicios, mi enfoque es empoderarte para lograr y mantener tus
-          resultados de forma independiente. Utilizo métodos respaldados por la
-          ciencia para diseñar planes personalizados y te proporciono todas las
-          herramientas necesarias para que puedas gestionarte por ti mismo. Más
-          allá de un simple cambio físico, busco ofrecer un servicio que cambie
-          tu vida. Además, cada semana realizaremos una reunión en llamada para
-          resolver cualquier duda compleja y garantizar un trato más personal y
-          cercano, asegurando que entiendas cada aspecto de tu progreso y
-          planificación.{" "}
+          Mientras otros entrenadores buscan mantenerte atado a sus servicios,
+          yo me centro en que logres la independencia. No solo cambiarás tu
+          físico, sino que aprenderás a mantener y mejorar tus resultados sin
+          depender de asesorías constantes para que no tengas que pagar a nadie
+          todos los meses.{" "}
         </p>
         <h3
           className="text-6xl text-center text-white mt-4"

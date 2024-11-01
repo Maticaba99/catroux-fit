@@ -16,14 +16,11 @@ function Features() {
           className="text-1x1 md:text-1xl lg:text-1xl mt-4 text-lg text-white text-center"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
-          He ayudado a muchos de mis amigos a transformar sus físicos y superar
-          sus propios límites. Desde aumentar masa muscular de manera
-          consistente hasta perder grasa sin sacrificar fuerza, juntos hemos
-          logrado cambios notables. Lo más gratificante ha sido ver cómo han
-          adquirido la confianza para gestionar su nutrición y entrenamientos
-          por sí mismos. Al aplicar estrategias personalizadas y una estructura
-          bien planificada, mis amigos no solo han conseguido resultados
-          visibles, sino que también han aprendido a mantenerlos a largo plazo.{" "}
+          He ayudado a mis amigos a transformar sus físicos, ganando músculo o
+          perdiendo grasa sin perder fuerza. Lo mejor ha sido ver cómo han
+          aprendido a gestionar su nutrición y entrenamientos de forma
+          independiente gracias a mi ayuda, y ademas logrando y manteniendo
+          resultados visibles a largo plazo.{" "}
         </p>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
