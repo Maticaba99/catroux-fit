@@ -3,12 +3,12 @@ import "@fontsource/poppins";
 function Hero() {
   return (
     <div className="py-10 bg-gray-800">
-      <section className="flex flex-col items-center text-center space-y-4 max-w-2xl mx-auto">
+      <section className="flex flex-col items-center text-center space-y-4 max-w-[60rem] mx-auto">
         <h1
           className="font-bold text-center leading-tight text-3xl md:text-4xl lg:text-4xl  text-white m-4"
           style={{
             fontFamily: "Poppins, sans-serif",
-            maxWidth: "600px",
+            maxWidth: "1000px",
             width: "100%",
           }}
         >
