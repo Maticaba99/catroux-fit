@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="bg-gray-900 text-white py-8">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-center items-center">
-        <p className="flex items-center">CATROUX</p>
+        <img src="/logo.png" alt="logo" className="flex items-center " />
       </div>
     </header>
   );
