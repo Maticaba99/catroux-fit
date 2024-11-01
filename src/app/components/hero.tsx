@@ -8,11 +8,16 @@ function Hero() {
           className="font-bold text-center leading-tight text-3xl md:text-4xl lg:text-4xl  text-white m-4"
           style={{
             fontFamily: "Poppins, sans-serif",
-            maxWidth: "600px",
-            width: "100%",
           }}
         >
-          <span>Te enseño cómo cambiar tu físico y a seguir mejorándolo</span>
+          <span
+            style={{
+              maxWidth: "600px",
+              width: "100%",
+            }}
+          >
+            Te enseño cómo cambiar tu físico y a seguir mejorándolo
+          </span>
           <br />
           <span>por ti mismo para no depender de </span>
           <span> un entrenador y nutricionista a largo plazo</span>
