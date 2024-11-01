@@ -3,7 +3,7 @@ import "@fontsource/poppins";
 function Hero() {
   return (
     <div className="py-10 bg-gray-800">
-      <section className="flex flex-col items-center text-center space-y-4 max-w-[60rem] mx-auto">
+      <section className="flex flex-col items-center text-center space-y-4 min-w-64 mx-auto">
         <h1
           className="font-bold text-center leading-tight text-3xl md:text-4xl lg:text-4xl  text-white m-4"
           style={{
