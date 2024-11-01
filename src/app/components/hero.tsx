@@ -5,7 +5,7 @@ function Hero() {
     <div className="py-10 bg-gray-800">
       <section className="flex flex-col items-center text-center space-y-4 max-w-2xl mx-auto">
         <h1
-          className="font-bold text-center leading-tight text-3xl md:text-4xl lg:text-4xl  text-white m-4"
+          className="w-32 font-bold text-center leading-tight text-3xl md:text-4xl lg:text-4xl  text-white m-4"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
           <span>Te enseño cómo cambiar tu físico y a seguir mejorándolo</span>
