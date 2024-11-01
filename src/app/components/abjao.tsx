@@ -1,33 +1,18 @@
 import React, { useEffect } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import "@fontsource/poppins";
-import "aos/dist/aos.css";
 
-const MyComponent = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, 
-      offset: 200,    
-    });
-  }, []);
-
-
-
-function Features() {
   return (
     <div className="bg-gray-800 py-10">
       <section className="bg-gray ">
         <div className="max-w-7xl mx-auto px-4">
           <div style={{ fontFamily: "Poppins, sans-serif" }}>
             <h2
-            data-aos="fade-up"
             className="text-3xl md:text-4xl lg:text-5xl text-center text-white ">
               TRANSPARENCIA Y HONESTIDAD{" "}
             </h2>
-            <hr data-aos="fade-right" />
+            <hr />
           </div>
-        );
-      {"}"};
 
 
           <p
