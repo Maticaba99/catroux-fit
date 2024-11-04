@@ -62,7 +62,7 @@ const Faq = () => {
             {/* Primera pregunta */}
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]" />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
@@ -85,7 +85,7 @@ const Faq = () => {
             {/* Segunda pregunta */}
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]"  />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
@@ -105,7 +105,7 @@ const Faq = () => {
             {/* Otras preguntas */}
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]" />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
@@ -124,7 +124,7 @@ const Faq = () => {
 
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]" />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
@@ -144,7 +144,7 @@ const Faq = () => {
 
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]" />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
@@ -163,7 +163,7 @@ const Faq = () => {
 
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]" />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
@@ -183,7 +183,7 @@ const Faq = () => {
 
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]" />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
@@ -203,7 +203,7 @@ const Faq = () => {
 
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]" />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
@@ -222,7 +222,7 @@ const Faq = () => {
 
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]" />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
@@ -241,7 +241,7 @@ const Faq = () => {
 
             <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
-                <FaQuestionCircle className="text-gray-400 mr-2" />
+                <FaQuestionCircle className="text-gray-400 mr-2 w-[30px]" />
                 <h3
                   className="font-semibold"
                   style={{ fontFamily: "Poppins, sans-serif" }}
