@@ -246,7 +246,7 @@ const Faq = () => {
                 alcanzar tus objetivos.{" "}
               </p>
             </div>
-            <section className="mt-6">
+            <section className="mt-6 flex justify-center">
               <button
                 className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
           shadow-[0_0_60px_20px_rgba(0,128,255,0.6)] 
