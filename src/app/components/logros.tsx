@@ -45,8 +45,21 @@ function Features() {
               />
             </div>
           </div>
-
-          {/* Agrega más features como secciones aquí */}
+          <section className="mt-6">
+            <button
+              className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
+          shadow-[0_0_60px_20px_rgba(0,128,255,0.6)] 
+          transform transition-all duration-300 
+          hover:scale-105 
+          hover:shadow-[0_0_80px_30px_rgba(0,128,255,0.8)]
+          focus:outline-none flex flex-col items-center space-y-1"
+            >
+              <span className="text-lg">Reserva una llamada conmigo</span>
+              <span className="text-sm mt-1 opacity-80">
+                y empieza tu transformación
+              </span>
+            </button>
+          </section>
         </div>
       </div>
     </div>
