@@ -110,7 +110,8 @@ function Features() {
             </p>
           </div>
           <section
-            className="mt-6 flex justify-center pr-4
+            className="mt-6 flex justify-center mr-24
+
 "
           >
             <button
