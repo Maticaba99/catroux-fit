@@ -25,7 +25,7 @@ function Hero() {
           nadie&quot;.
         </p>
 
-        <div className="relative w-full max-w-full overflow-hidden max-h-24	">
+        <div className="relative w-full max-w-full overflow-hidden max-h-80	">
           <div className="flex justify-center h-screen">
             <iframe
               className="max-w-6xl w-full h-3/3"
