@@ -1,21 +1,35 @@
 // components/Features.js
+'use client'
 import React from "react";
 import "@fontsource/poppins";
+import Button from "./button";
+import { useEffect } from 'react';
+import AOS from 'aos';
 
 function Features() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 500, 
+      once: true, 
+    });
+  }, []);
+
   return (
-    <div className="bg-gray-800 py-14">
-      <div className="max-w-7xl mx-auto px-4 ">
-        <div style={{ fontFamily: "Poppins, sans-serif" }}>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white pb-4 ">
-            RESUMEN DE PROMESAS{" "}
+    <div className="bg-gray-800 py-20 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto ">
+        <div style={{ fontFamily: "Poppins, sans-serif" }} data-aos="fade-up">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold text-white pb-6 ">
+          Esto es lo que vas a lograr
+          <br/>
+          con <span className="text-[#4370f1]">Catroux</span>
           </h2>
-          <hr className="border-white pb-4" />
+          <hr className="border-[#7a7a7a] w-[200px] sm:w-[400px] m-[auto] pb-8" />
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Feature 1 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center" data-aos="fade-right">
             <img
               src="/foto2.png"
               alt="Cambio Físico Visible"
@@ -31,7 +45,7 @@ function Features() {
           </div>
 
           {/* Feature 2 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center" data-aos="fade-left">
             <img
               src="/foto3.png"
               alt="Independencia Total"
@@ -47,7 +61,7 @@ function Features() {
           </div>
 
           {/* Feature 3 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center" data-aos="fade-right">
             <img
               src="/foto4.png"
               alt="Resultados Basados en Ciencia"
@@ -63,7 +77,7 @@ function Features() {
           </div>
 
           {/* Feature 4 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center" data-aos="fade-left">
             <img
               src="/foto5.png"
               alt="Adherencia Garantizada"
@@ -79,7 +93,7 @@ function Features() {
           </div>
 
           {/* Feature 5 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center" data-aos="fade-right">
             <img
               src="/foto6.png"
               alt="Ahorro Financiero"
@@ -95,7 +109,7 @@ function Features() {
           </div>
 
           {/* Feature 6 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center" data-aos="fade-left">
             <img
               src="/foto7.png"
               alt="Crecimiento Personal"
@@ -109,23 +123,10 @@ function Features() {
               tu físico y bienestar.
             </p>
           </div>
-
-          <div className="flex justify-center mt-6">
-            <button
-              className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
-          shadow-[0_0_60px_20px_rgba(0,128,255,0.6)] 
-          transform transition-all duration-300 
-          hover:scale-105 
-          hover:shadow-[0_0_80px_30px_rgba(0,128,255,0.8)]
-          focus:outline-none flex flex-col items-center space-y-1"
-            >
-              <span className="text-lg">Reserva una llamada conmigo</span>
-              <span className="text-sm mt-1 opacity-80">
-                y empieza tu transformación
-              </span>
-            </button>
-          </div>
         </div>
+        <div className="flex justify-center mt-12" data-aos="fade-center">
+        <Button text="Reserva una llamada conmigo" subText="Empieza tu transformación" />
+          </div>
       </div>
     </div>
   );

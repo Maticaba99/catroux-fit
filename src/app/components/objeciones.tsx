@@ -1,41 +1,53 @@
+'use client'
 import { FaQuestionCircle } from "react-icons/fa";
 import "@fontsource/poppins";
+import Button from "./button";
+import { useEffect } from 'react';
+import AOS from 'aos';
+
 
 const Faq = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 500, 
+      once: true, 
+    });
+  }, []);
+
   return (
     <div
-      className="bg-gray-800 py-10"
+      className="bg-gray-800 py-20 px-4 sm:px-6 lg:px-8"
       style={{
-        padding: "20px",
         color: "#fff",
       }}
     >
       <div style={{ marginBottom: "20px" }}>
-        <p
-          className="text-3xl md:text-4xl lg:text-4xl text-center text-white uppercase"
-          style={{
-            fontSize: "24px",
-            fontWeight: "bold",
-            marginBottom: "10px",
-            fontFamily: "Poppins, sans-serif",
-          }}
+      <h2
+          className="text-4xl text-white font-bold text-center pb-6 "
+          style={{ fontFamily: "Poppins, sans-serif" }}
+          data-aos="fade-up"
         >
-          Porqué elegirme a mí:
-        </p>
+          Porqué elegirme
+        </h2>
+        <hr data-aos="fade-up" className="border-[#7a7a7a]  w-[200px] sm:w-[400px] m-[auto] pb-8" />
+        
         <p
-          className=" text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white mb-4 text-center
-          
-"
+        data-aos="fade-up"
+          className="text-center mt-2 text-gray-600 text-white"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
           Mientras otros entrenadores buscan mantenerte atado a sus servicios,
-          yo me centro en que logres la independencia. No solo cambiarás tu
+          yo me centro en que logres la independencia.
+          <br/>
+          No solo cambiarás tu
           físico, sino que aprenderás a mantener y mejorar tus resultados sin
           depender de asesorías constantes para que no tengas que pagar a nadie
           todos los meses.{" "}
         </p>
         <h3
-          className="text-6xl text-center text-white mt-4"
+        data-aos="fade-up"
+          className="text-6xl text-center text-white mt-8"
           style={{
             fontSize: "20px",
             fontWeight: "bold",
@@ -48,7 +60,7 @@ const Faq = () => {
         <div className="text-1x1 md:text-1xl lg:text-1xl  bg-gray-900 text-white p-6 rounded-lg max-w-6xl mx-auto">
           <div className="space-y-4">
             {/* Primera pregunta */}
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -71,7 +83,7 @@ const Faq = () => {
             </div>
 
             {/* Segunda pregunta */}
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -91,7 +103,7 @@ const Faq = () => {
             </div>
 
             {/* Otras preguntas */}
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -110,7 +122,7 @@ const Faq = () => {
               </p>
             </div>
 
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -130,7 +142,7 @@ const Faq = () => {
               </p>
             </div>
 
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -149,7 +161,7 @@ const Faq = () => {
               </p>
             </div>
 
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -169,7 +181,7 @@ const Faq = () => {
               </p>
             </div>
 
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -189,7 +201,7 @@ const Faq = () => {
               </p>
             </div>
 
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -208,7 +220,7 @@ const Faq = () => {
               </p>
             </div>
 
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -227,7 +239,7 @@ const Faq = () => {
               </p>
             </div>
 
-            <div className="bg-gray-800 p-4 rounded-lg">
+            <div className="bg-gray-800 p-4 rounded-lg" data-aos="fade-left">
               <div className="flex items-center">
                 <FaQuestionCircle className="text-gray-400 mr-2" />
                 <h3
@@ -246,23 +258,13 @@ const Faq = () => {
                 alcanzar tus objetivos.{" "}
               </p>
             </div>
-            <section className="mt-6 flex justify-center">
-              <button
-                className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
-          shadow-[0_0_60px_20px_rgba(0,128,255,0.6)] 
-          transform transition-all duration-300 
-          hover:scale-105 
-          hover:shadow-[0_0_80px_30px_rgba(0,128,255,0.8)]
-          focus:outline-none flex flex-col items-center space-y-1"
-              >
-                <span className="text-lg">Reserva una llamada conmigo</span>
-                <span className="text-sm mt-1 opacity-80">
-                  y empieza tu transformación
-                </span>
-              </button>
-            </section>
+            
           </div>
+          
         </div>
+        <section className="mt-12 mb-2 flex justify-center" data-aos="fade-up">
+            <Button text="Reserva una llamada conmigo" subText="Empieza tu transformación" />
+            </section>
       </div>
     </div>
   );

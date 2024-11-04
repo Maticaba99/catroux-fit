@@ -1,34 +1,45 @@
+'use client'
 import "@fontsource/poppins";
+import Button from "./button";
+import { useEffect } from 'react';
+import AOS from 'aos';
 
 function Hero() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 500, 
+      once: true, 
+    });
+  }, []);
+
   return (
-    <div className="py-10 bg-gray-800">
+    <div className="pt-10 pb-20 bg-gray-800 px-4 sm:px-6 lg:px-8 ">
       <section className="flex flex-col items-center text-center space-y-4 min-w-64 mx-auto">
         <h1
-          className="font-bold text-center leading-tight text-3xl md:text-4xl lg:text-4xl text-white m-4"
+        data-aos="fade-up"
+          className="font-bold text-center leading-tight text-3xl md:text-4xl lg:text-4xl text-white m-4 "
           style={{
             fontFamily: "Poppins, sans-serif",
             maxWidth: "1000px",
             width: "100%",
           }}
         >
-          Te enseño cómo cambiar tu físico y a seguir mejorándolo por ti mismo
-          para no depender de un entrenador y nutricionista a largo plazo
+          Te enseño a transformar <span className="text-[#4370f1]">tu físico </span> y mantenerlo sin depender <span className="text-[#4370f1]">de ningun coach</span>
         </h1>
 
         <p
-          className="text-1x1 md:text-1xl lg:text-1xl mt-2 font-sans text-lg text-white"
+          className="mt-2 font-sans text-sm text-[#ADADAD]"
           style={{ fontFamily: "Poppins, sans-serif" }}
+          data-aos="fade-up"
         >
-          &quot;Aprende conmigo a tomar el control de tu nutrición y
-          entrenamiento, obten resultados y sigue progresando sin depender de
-          nadie&quot;.
+          Aprende conmigo a tomar el control de tu nutrición y entrenamiento, obten resultados y sigue progresando sin depender de nadie
         </p>
 
-        <div className="relative w-full max-w-full overflow-hidden">
-          <div className="flex justify-center h-[700px]">
+        <div className="relative w-full max-w-full overflow-hidden" data-aos="fade-up">
+          <div className="flex justify-center max-h-[350px] md:max-h-[700px]  md:h-[700px]">
             <iframe
-              className="max-w-6xl w-full h-full"
+              className="max-w-6xl w-full h-full min-h-[250px]"
               src="https://player.vimeo.com/video/359553297"
               title="VSL"
               allowFullScreen
@@ -36,20 +47,8 @@ function Hero() {
           </div>
         </div>
 
-        <section className="mt-6">
-          <button
-            className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
-          shadow-[0_0_60px_20px_rgba(0,128,255,0.6)] 
-          transform transition-all duration-300 
-          hover:scale-105 
-          hover:shadow-[0_0_80px_30px_rgba(0,128,255,0.8)]
-          focus:outline-none flex flex-col items-center space-y-1"
-          >
-            <span className="text-lg">Reserva una llamada conmigo</span>
-            <span className="text-sm mt-1 opacity-80">
-              y empieza tu transformación
-            </span>
-          </button>
+        <section className="mt-12" data-aos="fade-up">
+          <Button text="Reserva una llamada conmigo" subText="Empieza tu transformación" />
         </section>
       </section>
     </div>

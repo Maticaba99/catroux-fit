@@ -1,33 +1,53 @@
+'use client'
+
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import "@fontsource/poppins";
+import { useEffect } from 'react';
+import AOS from 'aos';
 
 function Features() {
+
+
+useEffect(() => {
+  AOS.init({
+    duration: 500, 
+    once: true, 
+  });
+}, []);
+  
   return (
-    <div className="bg-gray-800 py-10">
-      <section className="bg-gray ">
-        <div className="max-w-7xl mx-auto px-4">
-          <div style={{ fontFamily: "Poppins, sans-serif" }}>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white pb-4 font-bold">
-              TRANSPARENCIA Y HONESTIDAD{" "}
+    <div className="bg-gray-800 py-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-gray bg-cover bg-no-repeat bg-responsive">
+      <div className="absolute inset-0 bg-gradient-to-tl from-gray-800 to-transparent"></div>
+
+        <div className="max-w-7xl mx-auto relative z-10" >
+          <div style={{ fontFamily: "Poppins, sans-serif" }}  data-aos="fade-up" >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white pb-6 font-bold">
+              Transparencia y Honestidad
             </h2>
-            <hr className="border-white pb-4" />
+            <hr className="border-[#7a7a7a]  w-[200px] sm:w-[400px] m-[auto] pb-8" />
           </div>
 
           <p
+           data-aos="fade-up"
             className="text-center mt-2 text-gray-600 text-white"
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
             A diferencia de otros entrenadores, mi objetivo no es mantenerte en
-            una asesoría indefinidamente. Me enfoco en enseñarte a gestionar tu
+            una asesoría indefinidamente. 
+            <br/>
+            Me enfoco en enseñarte a gestionar tu
             físico por tu cuenta, para que no dependas de un entrenador a largo
-            plazo. Así, te conviertes en tu propio guía y ahorras tiempo y
+            plazo. 
+            <br/>
+            Así, te conviertes en tu propio guía y ahorras tiempo y
             dinero.{" "}
           </p>
 
           <div className="mt-12 space-y-8">
             {/* Feature 1 */}
-            <div className="flex">
+            <div className="flex"  data-aos="fade-left">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg relative top-1" />
               </div>
@@ -37,7 +57,7 @@ function Features() {
                   className="text-2xl font-semibold text-white"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
-                  Independencia para el Futuro{" "}
+                 Independencia para el  <span className="text-[#4370f1]">Futuro</span>{" "}
                 </h3>
                 <p
                   className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white"
@@ -49,7 +69,7 @@ function Features() {
               </div>
             </div>
 
-            <div className="flex">
+            <div className="flex"  data-aos="fade-left">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg relative top-1" />
               </div>
@@ -59,7 +79,7 @@ function Features() {
                   className="text-2xl font-semibold text-white"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
-                  Desarrollo de Conocimientos Reales{" "}
+                  Desarrollo de <span className="text-[#4370f1]">Conocimientos Reales</span>{" "}
                 </h3>
                 <p
                   className="text-1x1 md:text-1xl lg:text-1xl  mt-2 text-white"
@@ -72,7 +92,7 @@ function Features() {
               </div>
             </div>
 
-            <div className="flex">
+            <div className="flex"  data-aos="fade-left">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg mt-1 text-center" />
               </div>
@@ -82,7 +102,7 @@ function Features() {
                   className="text-2xl font-semibold text-white"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
-                  Estrategias Basadas en Resultados{" "}
+                  Estrategias Basadas en <span className="text-[#4370f1]">Resultados</span>{" "}
                 </h3>
                 <p
                   className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white"
@@ -94,7 +114,7 @@ function Features() {
               </div>
             </div>
 
-            <div className="flex">
+            <div className="flex"  data-aos="fade-left">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base text-2xl sm:text-lg text-lg relative top-1" />
               </div>
@@ -104,7 +124,7 @@ function Features() {
                   className="text-2xl font-semibold text-white"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
-                  Flexibilidad en la Alimentación{" "}
+                  Flexibilidad en la <span className="text-[#4370f1]">Alimentación</span>{" "}
                 </h3>
                 <p
                   className="text-1x1 md:text-1xl lg:text-1xl mt-4 font-sans text-lg text-white"
@@ -118,7 +138,7 @@ function Features() {
               </div>
             </div>
 
-            <div className="flex">
+            <div className="flex"  data-aos="fade-left">
               <div className="flex-shrink-0">
                 <FaChevronRight className="text-blue-500 mr-2 text-base md:text-lg lg:text-xl text-lg relative top-1" />
               </div>
@@ -128,7 +148,7 @@ function Features() {
                   className="text-2xl font-semibold text-white"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
-                  Ahorro a Largo Plazo{" "}
+                  Ahorro a <span className="text-[#4370f1]">Largo Plazo</span>{" "}
                 </h3>
                 <p
                   className="text-1x1 md:text-1xl lg:text-1xl mt-2 text-white"
