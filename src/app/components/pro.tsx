@@ -109,7 +109,10 @@ function Features() {
               tu físico y bienestar.
             </p>
           </div>
-          <section className="mt-6 flex justify-center">
+          <section
+            className="mt-6 flex justify-center pr-4
+"
+          >
             <button
               className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
           shadow-[0_0_60px_20px_rgba(0,128,255,0.6)] 
