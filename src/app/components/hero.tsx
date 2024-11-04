@@ -43,7 +43,7 @@ function Hero() {
           transform transition-all duration-300 
           hover:scale-105 
           hover:shadow-[0_0_80px_30px_rgba(34,211,238,0.8)]
-          focus:outline-none py-5 px-8 rounded-lg shadow-lg"
+          focus:outline-none flex flex-col items-center space-y-1"
           >
             <span className="text-lg">Reserva una llamada conmigo</span>
             <span className="text-sm mt-1 opacity-80">
