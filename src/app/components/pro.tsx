@@ -5,7 +5,7 @@ import "@fontsource/poppins";
 function Features() {
   return (
     <div className="bg-gray-800 py-14">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col items-center">
+      <div className="max-w-7xl mx-auto px-4 ">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white pb-4">
             RESUMEN DE PROMESAS{" "}
@@ -115,7 +115,7 @@ function Features() {
 "
           >
             <button
-              className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
+              className="flex flex-col items-center          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
           shadow-[0_0_60px_20px_rgba(0,128,255,0.6)] 
           transform transition-all duration-300 
           hover:scale-105 
