@@ -38,12 +38,12 @@ function Hero() {
 
         <section className="mt-32">
           <button
-            className="          bg-blue-500 text-white font-semibold py-5 px-8 rounded-full 
+            className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
           shadow-[0_0_60px_20px_rgba(34,211,238,0.6)] 
           transform transition-all duration-300 
           hover:scale-105 
           hover:shadow-[0_0_80px_30px_rgba(34,211,238,0.8)]
-          focus:outline-none"
+          focus:outline-none py-5 px-8 rounded-lg shadow-lg"
           >
             <span className="text-lg">Reserva una llamada conmigo</span>
             <span className="text-sm mt-1 opacity-80">
