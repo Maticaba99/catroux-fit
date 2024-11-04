@@ -26,7 +26,7 @@ function Hero() {
         </p>
 
         <div className="relative w-full max-w-full overflow-hidden">
-          <div className="flex justify-center h-[500px]">
+          <div className="flex justify-center h-[700px]">
             <iframe
               className="max-w-6xl w-full h-full"
               src="https://player.vimeo.com/video/359553297"
