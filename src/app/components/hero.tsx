@@ -17,7 +17,7 @@ function Hero() {
         </h1>
 
         <p
-          className="text-1x1 md:text-1xl lg:text-1xl mt-2 mb-6 font-sans text-lg text-white"
+          className="text-1x1 md:text-1xl lg:text-1xl mt-2 font-sans text-lg text-white"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
           &quot;Aprende conmigo a tomar el control de tu nutrición y
