@@ -6,7 +6,7 @@ function Features() {
     <div className="py-10 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
-          <h2 className="text-white text-3xl md:text-4xl lg:text-5xl  text-center">
+          <h2 className="text-white text-3xl md:text-4xl lg:text-5xl  text-center pb-4">
             TRANSFORMACIONES{" "}
           </h2>
         </div>

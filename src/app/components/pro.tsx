@@ -7,7 +7,7 @@ function Features() {
     <div className="bg-gray-800 py-14">
       <div className="max-w-7xl mx-auto px-4">
         <div style={{ fontFamily: "Poppins, sans-serif" }}>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white pb-4">
             RESUMEN DE PROMESAS{" "}
           </h2>
           <hr className="border-white pb-4" />
