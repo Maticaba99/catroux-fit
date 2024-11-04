@@ -38,7 +38,7 @@ function Hero() {
 
         <section className="mt-32">
           <button
-            className="          bg-cyan-500 text-white font-semibold py-5 px-8 rounded-full 
+            className="          bg-blue-500 text-white font-semibold py-5 px-8 rounded-full 
           shadow-[0_0_60px_20px_rgba(34,211,238,0.6)] 
           transform transition-all duration-300 
           hover:scale-105 
