@@ -36,14 +36,14 @@ function Hero() {
           </div>
         </div>
 
-        <section className="mt-32 flex justify-center">
+        <section className="mt-32">
           <button
-            className="bg-yellow-500 text-black font-semibold py-5 px-8 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl focus:outline-none flex flex-col items-center
-    shadow-[0_0_30px_10px_rgba(255,193,7,0.4)]"
+            className="-translate-y-2 bg-blue-600 text-white font-semibold py-5 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 flex flex-col items-center
+    shadow-[0_0_20px_10px_rgba(59,130,246,0.5)]"
           >
-            <span className="text-lg">Agenda tu llamada gratuita</span>
+            <span className="text-lg">Reserva una llamada conmigo</span>
             <span className="text-sm mt-1 opacity-80">
-              Para evaluar el caso de tu negocio
+              y empieza tu transformación
             </span>
           </button>
         </section>
