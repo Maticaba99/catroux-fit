@@ -109,13 +109,10 @@ function Features() {
               tu físico y bienestar.
             </p>
           </div>
-          <section
-            className="mt-6 
 
-"
-          >
+          <div className="flex justify-center mt-6">
             <button
-              className="flex flex-col items-center          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
+              className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
           shadow-[0_0_60px_20px_rgba(0,128,255,0.6)] 
           transform transition-all duration-300 
           hover:scale-105 
@@ -127,7 +124,7 @@ function Features() {
                 y empieza tu transformación
               </span>
             </button>
-          </section>
+          </div>
         </div>
       </div>
     </div>
