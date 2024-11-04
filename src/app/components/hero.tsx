@@ -28,7 +28,7 @@ function Hero() {
         <div className="relative w-full max-w-full overflow-hidden">
           <div className="flex justify-center h-screen">
             <iframe
-              className="max-w-6xl w-full h-3/3"
+              className="max-w-6xl w-full h-full"
               src="https://player.vimeo.com/video/359553297"
               title="VSL"
               allowFullScreen
@@ -36,7 +36,7 @@ function Hero() {
           </div>
         </div>
 
-        <section className="mt-32">
+        <section className="mt-8">
           <button
             className="          bg-blue-700 text-white font-semibold py-5 px-8 rounded-full 
           shadow-[0_0_60px_20px_rgba(0,128,255,0.6)] 
