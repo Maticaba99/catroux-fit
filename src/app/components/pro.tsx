@@ -10,7 +10,7 @@ function Features() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white">
             RESUMEN DE PROMESAS{" "}
           </h2>
-          <hr />
+          <hr className="border-white pb-4" />
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">

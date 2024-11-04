@@ -11,7 +11,7 @@ function Features() {
           </h2>
         </div>
 
-        <hr></hr>
+        <hr className="border-white pb-4" />
         <p
           className="text-1x1 md:text-1xl lg:text-1xl mt-4 text-lg text-white text-center"
           style={{ fontFamily: "Poppins, sans-serif" }}

@@ -11,7 +11,7 @@ function Features() {
         >
           TESTIMONIOS{" "}
         </h2>
-        <hr></hr>
+        <hr className="border-white pb-4" />
 
         <div className="flex justify-center">
           <img
