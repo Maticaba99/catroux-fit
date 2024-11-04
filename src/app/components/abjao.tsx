@@ -12,7 +12,7 @@ function Features() {
               TRANSPARENCIA Y HONESTIDAD{" "}
             </h2>
             <hr
-              className="border-white pb-8
+              className="border-white pt-4
 "
             />
           </div>
