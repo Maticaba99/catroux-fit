@@ -37,10 +37,7 @@ function Hero() {
         </div>
 
         <section className="mt-32">
-          <button
-            className="-translate-y-2 bg-blue-600 text-white font-semibold py-5 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 flex flex-col items-center
-    shadow-[0_0_20px_10px_rgba(59,130,246,0.5)]"
-          >
+          <button className="-translate-y-2 bg-blue-600 text-white font-semibold py-5 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-blue-700 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 flex flex-col items-center">
             <span className="text-lg">Reserva una llamada conmigo</span>
             <span className="text-sm mt-1 opacity-80">
               y empieza tu transformación
