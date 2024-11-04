@@ -1,4 +1,22 @@
 import "@fontsource/poppins";
+// animations.ts
+
+export function animateElement(element: HTMLElement, duration: number) {
+  const start = performance.now();
+
+  function animate(time: number) {
+    const elapsed = time - start;
+    const progress = Math.min(elapsed / duration, 1);
+
+    element.style.transform = `translateX(${progress * 100}%)`;
+
+    if (progress < 1) {
+      requestAnimationFrame(animate);
+    }
+  }
+
+  requestAnimationFrame(animate);
+}
 
 function Hero() {
   return (
