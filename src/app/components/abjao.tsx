@@ -11,7 +11,10 @@ function Features() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white ">
               TRANSPARENCIA Y HONESTIDAD{" "}
             </h2>
-            <hr className="border-white mb-15" />
+            <hr
+              className="border-white pb-8
+"
+            />
           </div>
 
           <p
