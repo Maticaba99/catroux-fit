@@ -15,27 +15,21 @@ function Features() {
   }, []);
 
   return (
-    <div className="py-20 bg-gray-800 px-4 sm:px-6 lg:px-8">
+    <div className="py-20 bg-[#171c2b] px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div style={{ fontFamily: "Poppins, sans-serif" }} data-aos="fade-up">
-          <h2 className="text-white text-3xl md:text-4xl lg:text-5xl  text-center pb-6 font-bold">
+          <h2 className="text-[#4370f1] text-3xl md:text-4xl lg:text-5xl  text-center pb-4 font-bold">
             Transformaciones{" "}
           </h2>
         </div>
 
-        <hr data-aos="fade-up" className="border-[#7a7a7a]  w-[200px] sm:w-[400px] m-[auto] pb-8" />
+        <hr data-aos="fade-up" className="border-[#393f53]  w-[200px] sm:w-[400px] m-[auto] pb-8" />
         <p
           className="text-center mt-2 text-gray-600 text-white"
           style={{ fontFamily: "Poppins, sans-serif" }}
           data-aos="fade-up"
         >
-          He ayudado a mis amigos a transformar sus físicos, ganando músculo o
-          perdiendo grasa sin perder fuerza. 
-          <br/>
-          Lo mejor ha sido ver cómo han
-          aprendido a gestionar su nutrición y entrenamientos de forma
-          independiente gracias a mi ayuda, y ademas logrando y manteniendo
-          resultados visibles a largo plazo.{" "}
+          He ayudado a amigos a ganar músculo y perder grasa, enseñándoles a autogestionar su nutrición y entrenamiento para resultados duraderos.
         </p>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8" >

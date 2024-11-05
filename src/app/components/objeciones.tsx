@@ -17,33 +17,27 @@ const Faq = () => {
 
   return (
     <div
-      className="bg-gray-800 py-20 px-4 sm:px-6 lg:px-8"
+      className="bg-[#171c2b] py-20 px-4 sm:px-6 lg:px-8"
       style={{
         color: "#fff",
       }}
     >
       <div style={{ marginBottom: "20px" }}>
       <h2
-          className="text-4xl text-white font-bold text-center pb-6 "
+          className="text-4xl text-[#4370f1] font-bold text-center pb-4 "
           style={{ fontFamily: "Poppins, sans-serif" }}
           data-aos="fade-up"
         >
           Porqué elegirme
         </h2>
-        <hr data-aos="fade-up" className="border-[#7a7a7a]  w-[200px] sm:w-[400px] m-[auto] pb-8" />
+        <hr data-aos="fade-up" className="border-[#393f53]  w-[200px] sm:w-[400px] m-[auto] pb-8" />
         
         <p
         data-aos="fade-up"
           className="text-center mt-2 text-gray-600 text-white"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
-          Mientras otros entrenadores buscan mantenerte atado a sus servicios,
-          yo me centro en que logres la independencia.
-          <br/>
-          No solo cambiarás tu
-          físico, sino que aprenderás a mantener y mejorar tus resultados sin
-          depender de asesorías constantes para que no tengas que pagar a nadie
-          todos los meses.{" "}
+          A diferencia de otros entrenadores, te enseño a lograr y mantener resultados por ti mismo, sin depender de pagos mensuales.
         </p>
         <h3
         data-aos="fade-up"

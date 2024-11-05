@@ -17,16 +17,16 @@ useEffect(() => {
 }, []);
   
   return (
-    <div className="bg-gray-800 py-20 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#171c2b] py-20 px-4 sm:px-6 lg:px-8">
       <section className="relative bg-gray bg-cover bg-no-repeat bg-responsive">
-      <div className="absolute inset-0 bg-gradient-to-tl from-gray-800 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-tl from-[#171c2b] to-transparent"></div>
 
         <div className="max-w-7xl mx-auto relative z-10" >
           <div style={{ fontFamily: "Poppins, sans-serif" }}  data-aos="fade-up" >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl text-center text-white pb-6 font-bold">
+            <h2 className="text-[#4370f1] text-3xl md:text-4xl lg:text-5xl text-center pb-4 font-bold">
               Transparencia y Honestidad
             </h2>
-            <hr className="border-[#7a7a7a]  w-[200px] sm:w-[400px] m-[auto] pb-8" />
+            <hr className="border-[#393f53]  w-[200px] sm:w-[400px] m-[auto] pb-8" />
           </div>
 
           <p
@@ -34,15 +34,10 @@ useEffect(() => {
             className="text-center mt-2 text-gray-600 text-white"
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
-            A diferencia de otros entrenadores, mi objetivo no es mantenerte en
-            una asesoría indefinidamente. 
+            Mi enfoque no es retenerte indefinidamente como cliente. 
             <br/>
-            Me enfoco en enseñarte a gestionar tu
-            físico por tu cuenta, para que no dependas de un entrenador a largo
-            plazo. 
+            Te capacito para manejar tu físico de manera independiente, ahorrándote tiempo y dinero al convertirte en tu propio guía..
             <br/>
-            Así, te conviertes en tu propio guía y ahorras tiempo y
-            dinero.{" "}
           </p>
 
           <div className="mt-12 space-y-8">

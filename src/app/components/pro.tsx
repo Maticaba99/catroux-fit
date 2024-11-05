@@ -19,12 +19,12 @@ function Features() {
     <div className="bg-gray-800 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto ">
         <div style={{ fontFamily: "Poppins, sans-serif" }} data-aos="fade-up">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold text-white pb-6 ">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold text-[#4370f1] pb-4 ">
           Esto es lo que vas a lograr
           <br/>
-          con <span className="text-[#4370f1]">Catroux</span>
+          con <span className="text-white">Catroux</span>
           </h2>
-          <hr className="border-[#7a7a7a] w-[200px] sm:w-[400px] m-[auto] pb-8" />
+          <hr className="border-[#393f53] w-[200px] sm:w-[400px] m-[auto] pb-8" />
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -18,7 +18,7 @@ function Features() {
     <section className="bg-gray-800 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto" data-aos="fade-up">
         <h2
-          className="text-3xl md:text-4xl lg:text-5xl text-center font-bold text-white"
+          className="text-3xl md:text-4xl lg:text-5xl text-center font-bold text-[#4370f1]"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
           Testimonios{" "}
@@ -37,16 +37,7 @@ function Features() {
           className="text-center mt-2 text-gray-600 text-white"
           style={{ fontFamily: "Poppins, sans-serif" }}
         >
-          Mis clientes y amigos han logrado cambios físicos y ahora gestionan su
-          nutrición y entrenamiento sin ningun coach. 
-          <br/>
-          Cada testimonio refleja no
-          solo un cambio físico, sino un cambio de vida. 
-          <br/>
-          Han aprendido a
-          planificar su alimentación y ajustar sus entrenamientos según sus
-          objetivos, sin depender de asesorías constantes, manteniendo sus
-          resultados a largo plazo.
+          Los testimonios de mis clientes reflejan cambios vitales, aprendiendo a planificar dietas y ajustar rutinas de forma autónoma, manteniendo sus logros a largo plazo
         </p>
 
         <div className="mt-12 flex justify-center flex-wrap gap-16">

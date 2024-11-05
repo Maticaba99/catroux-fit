@@ -11,20 +11,19 @@ export default function Home() {
   return (
     <div className="bg-cover bg-center bg-fixed">
       <Header />
-      <hr className="my-0 border-t-3 border-blue-500" />
-
       <Hero />
-      <hr className="my-0 border-t-3 border-blue-500" />
+      <hr className="my-0 border-t-1 border-[#393f53]" />
       <Abjao />
-      <hr className="my-0 border-t-3 border-blue-500" />
+      <hr className="my-0 border-t-1 border-[#393f53]" />
       <Pro />
-      <hr className="my-0 border-t-3 border-blue-900" />
+      <hr className="my-0 border-t-1 border-[#393f53]" />
 
       <Logros />
-      <hr className="my-0 border-t-3 border-blue-900" />
+      <hr className="my-0 border-t-1 border-[#393f53]" />
       <Testimonios />
-      <hr className="my-0 border-t-3 border-blue-900" />
+      <hr className="my-0 border-t-1 border-[#393f53]" />
       <Objesiones />
+      
       <Footer />
     </div>
   );
