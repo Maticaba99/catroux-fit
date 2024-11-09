@@ -33,7 +33,7 @@ function Hero() {
           style={{ fontFamily: "Poppins, sans-serif" }}
           data-aos="fade-up"
         >
-          Aprende conmigo a tomar el control de tu nutrición y entrenamiento, obten resultados y sigue progresando sin depender de nadie
+          Aprende conmigo aaaaa tomar el control de tu nutrición y entrenamiento, obten resultados y sigue progresando sin depender de nadie
         </p>
 
         <div className="relative w-full max-w-full overflow-hidden" data-aos="fade-up">
