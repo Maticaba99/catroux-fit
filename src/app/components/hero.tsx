@@ -40,7 +40,7 @@ function Hero() {
           <div className="flex justify-center max-h-[350px] md:max-h-[700px]  md:h-[700px]">
             <iframe
               className="max-w-6xl w-full h-full min-h-[250px]"
-              src="https://player.vimeo.com/video/359553297"
+              src="https://player.vimeo.com/video/1028529428"
               title="VSL"
               allowFullScreen
             ></iframe>
